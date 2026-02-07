@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FH12_40S_0.5SH_55_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Hirose", "FH12-40S-0.5SH(55)" (!) = "", "FH1240S05SH55", "Other", "798-FH12-40S-0.5SH55", "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12-40S-0.5SH55?qs=Ux3WWAnHpjCB5TtHwQqTgA%3D%3D", "FFC,0.5mm Pitch,Bottom Contact,40way Hirose FH12 Series 0.5mm Pitch 40 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts", "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023459.pdf", "2 mm"
+END_PART
+
+END.

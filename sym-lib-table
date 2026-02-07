@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/LIB_SandKrux/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "FH12-40S-0.5SH_55_")(type "Legacy")(uri "${KIPRJMOD}/LIB_SandKrux/LIB_FH12-40S-0.5SH_55_/FH12-40S-0.5SH_55_/KiCad/FH12-40S-0.5SH_55_.lib")(options "")(descr ""))
+  (lib (name "FH12-40S-0_5SH_55_")(type "KiCad")(uri "${KIPRJMOD}/LIB_SandKrux/LIB_FH12-40S-0.5SH_55_/FH12-40S-0.5SH_55_/KiCad/FH12-40S-0_5SH_55_.kicad_sym")(options "")(descr ""))
+)
