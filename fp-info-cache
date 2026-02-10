@@ -1,4 +1,4 @@
-27329067799947968
+27334380078565136
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108254,6 +108254,27 @@ FPC-SMD_05A20L26P
 0
 28
 28
+easyeda2kicad
+FPC-SMD_8P-P0.50_FH12S-8S-0.5SH-55
+
+
+0
+10
+10
+easyeda2kicad
+FPC-SMD_FH12-6S-0.5SH-55
+
+
+0
+8
+8
+easyeda2kicad
+FPC-SMD_FH12-40S-0.5SH-55
+
+
+0
+42
+42
 easyeda2kicad
 L0402
 

@@ -1,7 +1,12 @@
 SandKrux-backups/
 inspiration/
-_autosave-SandKrux.kicad_pcb
-_autosave-SandKrux.kicad_sch
-_autosave-SandKrux.kicad_pro
+# KiCad autosave/lock/backup artifacts
+#auto_saved_files#/
+_autosave-*
+~*.lck
+~*.kicad_pcb
+~*.kicad_sch
+~*.kicad_prl
+~*.kicad_pro
 *.bak
 *.backup
