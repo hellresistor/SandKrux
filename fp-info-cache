@@ -1,4 +1,4 @@
-27334380078565136
+27352092019596576
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71399,6 +71399,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm
+QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -108234,6 +108241,13 @@ BGA-144_L8.0-W8.0-R12-C12-P0.65-BL
 144
 144
 easyeda2kicad
+CONN-SMD_1.25T-2P
+
+
+0
+4
+3
+easyeda2kicad
 CONN-SMD_527450697
 
 
@@ -108276,7 +108290,21 @@ FPC-SMD_FH12-40S-0.5SH-55
 42
 42
 easyeda2kicad
+Krux_logo
+
+
+0
+0
+0
+easyeda2kicad
 L0402
+
+
+0
+2
+2
+easyeda2kicad
+LED0603-RD
 
 
 0
@@ -108290,12 +108318,26 @@ QFN-20_L3.0-W3.0-P0.40-BL-EP1.7
 21
 21
 easyeda2kicad
+QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm
+QFN, 32 Pin (https://www.renesas.com/eu/en/package-image/pdf/outdrawing/l32.4x4a.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+37
+33
+easyeda2kicad
 QFN-32_L5.0-W5.0-P0.50-TL-EP3.5-1
 
 
 0
 33
 33
+easyeda2kicad
+SOD-123_L2.7-W1.6-LS3.7-RD
+
+
+0
+2
+2
 easyeda2kicad
 SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
 
@@ -108325,6 +108367,13 @@ SOT-23-5_L2.9-W1.6-P0.95-LS2.9-BL
 5
 5
 easyeda2kicad
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+
+
+0
+5
+5
+easyeda2kicad
 SOT-23_L2.9-W1.3-P1.90-LS2.4-BR
 
 
@@ -108345,6 +108394,27 @@ SSOT-3_L2.9-W1.6-P0.95-LS2.8-BR
 0
 3
 3
+easyeda2kicad
+SW-SMD_E-SWITCH_TL3330
+
+
+0
+4
+4
+easyeda2kicad
+TF-SMD_HX-TF-CARD-XG8P-H1.5
+
+
+0
+12
+12
+easyeda2kicad
+USB-C-SMD_HYCW412-USBC16-065B
+
+
+0
+18
+16
 easyeda2kicad
 WQFN-28_L4.0-W4.0-P0.40-BL-EP
 
