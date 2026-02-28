@@ -11,6 +11,113 @@
 		(company "Sandlabs")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -9447,16 +9554,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 212.09) (xy 402.59 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3600719d-82af-4d4b-bdda-0d6b4fdbe1fa")
-	)
-	(wire
-		(pts
 			(xy 283.21 205.74) (xy 283.21 204.47)
 		)
 		(stroke
@@ -9664,6 +9761,16 @@
 			(type default)
 		)
 		(uuid "4244e07c-aede-4c81-8601-b1b10883c2af")
+	)
+	(wire
+		(pts
+			(xy 392.43 212.09) (xy 402.59 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4276d56f-21d2-4ac9-9994-9b3b8192520e")
 	)
 	(wire
 		(pts
@@ -12097,6 +12204,16 @@
 	)
 	(wire
 		(pts
+			(xy 450.85 92.71) (xy 473.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b990078e-e702-4e96-a3ae-6502753046df")
+	)
+	(wire
+		(pts
 			(xy 170.18 90.17) (xy 170.18 99.06)
 		)
 		(stroke
@@ -12354,16 +12471,6 @@
 			(type default)
 		)
 		(uuid "c56845c1-a996-47c1-9b83-6b5d6a9453e0")
-	)
-	(wire
-		(pts
-			(xy 462.28 92.71) (xy 473.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6496cb0-739a-47c3-8070-1407c4b6eb4d")
 	)
 	(wire
 		(pts
@@ -25533,6 +25640,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 450.85 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5f5934d-4bc1-404f-8f03-18169a148227")
+		(property "Reference" "TP3"
+			(at 449.58 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 449.58 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 445.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 445.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 450.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b7122d6-0b59-433b-bfde-f4f00de4864c")
+		)
+		(instances
+			(project "SandKrux"
+				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 218.44 66.04 90)
 		(unit 1)
@@ -28562,6 +28736,73 @@
 			(project "SandKrux"
 				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 392.43 212.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec8e93c7-5833-4385-b780-ad68b8f9c6a8")
+		(property "Reference" "TP2"
+			(at 391.16 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 391.16 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 392.43 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f2e0d4-cb12-4af3-bbb8-4a9eb75685a4")
+		)
+		(instances
+			(project "SandKrux"
+				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

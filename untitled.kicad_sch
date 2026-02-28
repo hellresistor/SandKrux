@@ -5,6 +5,113 @@
 	(uuid "38d77b16-667b-410e-91e5-82a85d46928f")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8119,6 +8226,12 @@
 		(uuid "81dca832-b5e4-4639-9120-8293c9a0de57")
 	)
 	(junction
+		(at 148.59 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87b57416-d1da-4012-8dd6-5273aebc964a")
+	)
+	(junction
 		(at 88.9 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8231,6 +8344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a80ecc3e-800f-478e-92d5-5fa7ca4a1597")
+	)
+	(junction
+		(at 261.62 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a91db713-b7aa-493f-8645-7019d97aa1be")
 	)
 	(junction
 		(at 54.61 228.6)
@@ -9175,6 +9294,16 @@
 			(type default)
 		)
 		(uuid "1b34025d-032c-4f5f-8d84-3efce2220ce7")
+	)
+	(wire
+		(pts
+			(xy 256.54 62.23) (xy 256.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b63fab4-244b-4370-97c3-272ac3176765")
 	)
 	(wire
 		(pts
@@ -10478,7 +10607,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 217.17) (xy 153.67 217.17)
+			(xy 146.05 217.17) (xy 148.59 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10528,7 +10657,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 53.34) (xy 262.89 53.34)
+			(xy 260.35 53.34) (xy 261.62 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10605,6 +10734,16 @@
 			(type default)
 		)
 		(uuid "72b750b7-6f0c-47df-95e8-dd8dddde91ca")
+	)
+	(wire
+		(pts
+			(xy 256.54 57.15) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fff61c-9cef-431b-bd93-5121c7d2ad9b")
 	)
 	(wire
 		(pts
@@ -11288,6 +11427,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 57.15) (xy 261.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09e6241-5c20-46a6-abc8-f607508c1ecc")
+	)
+	(wire
+		(pts
 			(xy 127 127) (xy 125.73 127)
 		)
 		(stroke
@@ -11475,6 +11624,16 @@
 			(type default)
 		)
 		(uuid "a992a5f6-e420-4ba0-bc23-9014057e23ab")
+	)
+	(wire
+		(pts
+			(xy 148.59 217.17) (xy 153.67 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaefcb4c-407a-43c2-8b0d-340811afef68")
 	)
 	(wire
 		(pts
@@ -12748,6 +12907,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 53.34) (xy 262.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f505972f-25fc-4102-bc12-6d586c2146b6")
+	)
+	(wire
+		(pts
 			(xy 179.07 193.04) (xy 193.04 193.04)
 		)
 		(stroke
@@ -12815,6 +12984,16 @@
 			(type default)
 		)
 		(uuid "f909d8ae-2661-488f-a98d-03897c27e010")
+	)
+	(wire
+		(pts
+			(xy 148.59 217.17) (xy 148.59 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95517db-fa0b-42b5-9a2b-940f0085464b")
 	)
 	(wire
 		(pts
@@ -15345,6 +15524,73 @@
 			(project "SandKrux"
 				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e/96977af9-d97c-4074-a27d-d13c09b0a814"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 256.54 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1c8043-595d-4a92-bbff-970035600ba9")
+		(property "Reference" "TP1"
+			(at 257.81 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 257.81 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f64a9031-14dc-4f0d-99a6-b8df2c9c1c14")
+		)
+		(instances
+			(project "SandKrux"
+				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e/96977af9-d97c-4074-a27d-d13c09b0a814"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -19015,6 +19261,73 @@
 			(project "SandKrux"
 				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e/96977af9-d97c-4074-a27d-d13c09b0a814"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 148.59 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "727af7b4-fa86-4bd9-8225-f936a1d503f9")
+		(property "Reference" "TP4"
+			(at 149.86 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 149.86 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ed12c3-04e6-49a5-9ad9-b99f8e3c4261")
+		)
+		(instances
+			(project "SandKrux"
+				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e/96977af9-d97c-4074-a27d-d13c09b0a814"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
