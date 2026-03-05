@@ -10,3 +10,5 @@ _autosave-*
 ~*.kicad_pro
 *.bak
 *.backup
+.easyeda2kicad-venv/
+__pycache__/
