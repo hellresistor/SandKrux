@@ -548,7 +548,7 @@
 		(uuid "eb98a797-aecd-49a2-8a0c-756ed2bda88b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_3D_DIR}/tropicsquare/tropic01_chip/QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm.step"
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm.step"
 		(offset (xyz 0 0 0))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -33,7 +33,7 @@
 	(fp_circle (center -4.45 3.55) (end -4.30 3.55) (layer Cmts.User) (width 0.30))
 	(fp_circle (center -4.45 1.02) (end -4.30 1.02) (layer F.SilkS) (width 0.30))
 	(fp_circle (center -5.18 2.87) (end -5.03 2.87) (layer F.SilkS) (width 0.30))
-	(model "C:/Users/vinic/Documents/GitHub/SandKrux/SandKrux/LIB_SandKrux/easyeda2kicad.3dshapes/SOP-16_L9.9-W3.9-H1.5-LS6.0-P1.27.wrl"
+	(model "${KIPRJMOD}/LIB_SandKrux/easyeda2kicad.3dshapes/SOP-16_L9.9-W3.9-H1.5-LS6.0-P1.27.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

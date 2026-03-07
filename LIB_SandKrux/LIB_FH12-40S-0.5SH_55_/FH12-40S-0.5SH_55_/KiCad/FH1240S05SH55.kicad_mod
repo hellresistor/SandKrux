@@ -73,7 +73,7 @@
   (pad 40 smd rect (at 9.750 -2.675 0) (size 0.300 1.300) (layers F.Cu F.Paste F.Mask))
   (pad 41 smd rect (at -11.650 0.575 0) (size 1.800 2.200) (layers F.Cu F.Paste F.Mask))
   (pad 42 smd rect (at 11.650 0.575 0) (size 1.800 2.200) (layers F.Cu F.Paste F.Mask))
-  (model FH12-40S-0.5SH_55_.stp
+  (model "${KIPRJMOD}/LIB_SandKrux/LIB_FH12-40S-0.5SH_55_/FH12-40S-0.5SH_55_/3D/FH12-40S-0.5SH_55_.stp"
     (at (xyz 0 -0.0086614172759019 0.039370078740157))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 -180 0))

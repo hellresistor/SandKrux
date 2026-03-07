@@ -21,7 +21,7 @@
 	(pad 0 smd rect (at -3.41 -1.56 0.00) (size 1.90 2.50) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -3.83 1.70) (end -3.80 1.70) (layer F.Fab) (width 0.06))
 	(fp_circle (center -2.25 1.98) (end -2.05 1.98) (layer Cmts.User) (width 0.40))
-	(model "C:/Users/vinic/Documents/GitHub/SandKrux/SandKrux/LIB_SandKrux/easyeda2kicad.3dshapes/CONN-SMD_1.25T-2P.wrl"
+	(model "${KIPRJMOD}/LIB_SandKrux/easyeda2kicad.3dshapes/CONN-SMD_1.25T-2P.wrl"
 		(offset (xyz 0.000 0.700 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

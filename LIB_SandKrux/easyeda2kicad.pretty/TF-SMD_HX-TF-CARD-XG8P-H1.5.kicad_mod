@@ -40,7 +40,7 @@
 	(pad 11 smd rect (at -6.87 -4.15 180.00) (size 1.45 2.00) (layers F.Cu F.Paste F.Mask))
 	(pad 12 smd rect (at -6.87 4.15 180.00) (size 1.45 2.00) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -7.22 -5.54) (end -7.19 -5.54) (layer F.Fab) (width 0.06))
-	(model "C:/Users/vinic/Documents/GitHub/SandKrux/SandKrux/LIB_SandKrux/easyeda2kicad.3dshapes/TF-SMD_HX-TF-CARD-XG8P-H1.5.wrl"
+	(model "${KIPRJMOD}/LIB_SandKrux/easyeda2kicad.3dshapes/TF-SMD_HX-TF-CARD-XG8P-H1.5.wrl"
 		(offset (xyz 0.000 -1.200 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

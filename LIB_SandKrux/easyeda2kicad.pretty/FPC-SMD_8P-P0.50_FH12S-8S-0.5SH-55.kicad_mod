@@ -38,7 +38,7 @@
 	(pad 9 smd rect (at 3.65 1.62 0.00) (size 1.80 2.20) (layers F.Cu F.Paste F.Mask))
 	(pad 10 smd rect (at -3.65 1.62 0.00) (size 1.80 2.20) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -3.40 -1.70) (end -3.30 -1.70) (layer F.Fab) (width 0.20))
-	(model "C:/Users/vinic/Documents/GitHub/SandKrux/SandKrux/LIB_SandKrux/easyeda2kicad.3dshapes/FPC-SMD_8P-P0.50_FH12S-8S-0.5SH-55.wrl"
+	(model "${KIPRJMOD}/LIB_SandKrux/easyeda2kicad.3dshapes/FPC-SMD_8P-P0.50_FH12S-8S-0.5SH-55.wrl"
 		(offset (xyz 0.000 -1.400 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
