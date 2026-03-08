@@ -9439,6 +9439,16 @@
 	)
 	(wire
 		(pts
+			(xy 464.82 43.18) (xy 473.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f430b72-b241-49c8-b4ca-666cc6f01f58")
+	)
+	(wire
+		(pts
 			(xy 303.53 87.63) (xy 312.42 87.63)
 		)
 		(stroke
@@ -9616,16 +9626,6 @@
 			(type default)
 		)
 		(uuid "37b4f375-5ded-4a1f-bfc2-43131658264c")
-	)
-	(wire
-		(pts
-			(xy 463.55 43.18) (xy 473.71 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ca1ac6-18c3-46ee-b327-41f930e1dada")
 	)
 	(wire
 		(pts
@@ -10616,6 +10616,16 @@
 			(type default)
 		)
 		(uuid "6a978629-2ab2-4b8b-9e4f-191d2e084f1b")
+	)
+	(wire
+		(pts
+			(xy 464.82 24.13) (xy 469.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab69224-8835-4607-83d5-2341429110ee")
 	)
 	(wire
 		(pts
@@ -12036,6 +12046,16 @@
 			(type default)
 		)
 		(uuid "c0281d9b-eba0-49c9-b571-df9d2fa3996f")
+	)
+	(wire
+		(pts
+			(xy 464.82 31.75) (xy 464.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ad7161-ad07-4f7a-9f95-68586b29a300")
 	)
 	(wire
 		(pts
@@ -14228,12 +14248,12 @@
 		(uuid "9fa34f34-06e6-45ef-bcfb-2d880feb8a60")
 	)
 	(label "SPI1_CS_TF"
-		(at 463.55 43.18 0)
+		(at 469.9 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9facd845-b41a-4ce1-9734-12a64ec90173")
 	)
@@ -24182,6 +24202,76 @@
 			(project "SandKrux"
 				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 464.82 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5a54cd-e90a-42c4-8ac7-e409a0c700f2")
+		(property "Reference" "JP5"
+			(at 467.36 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 467.36 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 464.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 464.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 464.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d73aa267-6812-4e6a-9a2d-164aa9e17a74")
+		)
+		(pin "1"
+			(uuid "f965a242-ebe8-4a63-a902-7f321d5090b8")
+		)
+		(instances
+			(project "SandKrux"
+				(path "/0986b4b2-29ef-45bb-b940-2ffd44ad7a0e"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
